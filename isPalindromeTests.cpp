@@ -17,27 +17,27 @@ bool isPalindrome(const std::string & text)
 int main()
 {
     std::string text1 = "Ala ma kota";
-    std::cout<<text1;
+    std::cout << text1;
     std::cout << isPalindrome(text1) << '\n';
 
     std::string text2 = "Ala";
-    std::cout<<text2;
+    std::cout << text2;
     std::cout << isPalindrome(text2) << '\n';
 
     std::string text3 = "ala";
-    std::cout<<text3;
+    std::cout << text3;
     std::cout << isPalindrome(text3) << '\n';
 
     std::string text4 = "kajak";
-    std::cout<<text4;
+    std::cout << text4;
     std::cout << isPalindrome(text4) << '\n';
 
     std::string text5 = "neveroddoreven";
-    std::cout<<text5;
+    std::cout << text5;
     std::cout << isPalindrome(text5) << '\n';
 
     std::string text6 = "abacada";
-    std::cout<<text6;
+    std::cout << text6;
     std::cout << isPalindrome(text6) << '\n';
 
     system("pause");
